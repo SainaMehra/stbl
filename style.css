@@ -6,20 +6,11 @@ body {
 
 .profile {
     width: 175px;
-    margin-bottom: 50px;
-    border-radius: 50%;
 }
 
 #welcome {
     position: absolute;
-    overflow: hidden;
-    height: 800px;
-    color: #FFFFFF;
-    left: 0;
-    top: 0;
     bottom: 0;
-    right: 0;
-    opacity: 0.83;
     background: linear-gradient(#BF2463 0%, #7C279B 100%);
     display: table;
     width: 100%;
@@ -79,33 +70,58 @@ p {
 
 .menu {
     position: fixed;
-    list-style: none;
     font-family: sans-serif;
-    top: 10px;
-    right: 30px;
+    top: 0px;
+    width: 100%;
+    margin-top: 0px;
     z-index: 10;
     cursor: pointer;
+    background: Yellow;
 }
 
 .links {
-    float: left;
     color: plum;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    padding-left: 9px;
-    padding-right: 9px;
+    display: inline;
+    padding-left: 33px;
+    padding-right: 25px;
     font-family: fantasy;
     font-size: 20px;
 }
 
 .links:hover {
-    background-color: greenyellow
+    font-size: 25px;
+    text-decoration: underline
 }
+
 html {
-    scroll-behavior: smooth;}
+    scroll-behavior: smooth;
+}
+
 a {
     text-decoration: none;
+    color: dimgrey;
+    text-shadow: 2px 2px gainsboro;
 }
+
 .artical:hover {
     color: brown;
+}
+
+#writings a {
+    text-shadow: none !important;
+    text-decoration: underline !important;
+    color: cadetblue !important;
+}
+
+#contact {
+    background: firebrick;
+}
+
+.contact_1 a {
+    color: white;
+    text-shadow: none;
+}
+
+.contact_1 h3 {
+    display: inline;
 }
